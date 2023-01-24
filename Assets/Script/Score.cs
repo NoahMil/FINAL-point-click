@@ -7,22 +7,33 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
-    public static Score instance;
-    
-    public TextMeshProUGUI scoreText;
-    private int score = 0;
-    public void Awake()
-    {
-        instance = this;
-    }
+    public TextMeshProUGUI ScoreText;
+    public int score = 0;
+    private int maxscore = 7;
+
 
     private void Start()
     {
-        scoreText.text = "Indices : " + score.ToString();
+        score = 0;
     }
 
-    public void ScoreUp()
+    public void AddScore(int newScore)
     {
-        score += 1;
+        score += newScore;
+    }
+
+    public void UpdateScore()
+    {
+        ScoreText.text = "Indices : " + score;
+
+        if (score == maxscore)
+        {
+
+        }
+    }
+
+    void Update()
+    {
+        UpdateScore();
     }
 }

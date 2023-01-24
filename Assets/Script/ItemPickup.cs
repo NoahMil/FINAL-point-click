@@ -8,6 +8,7 @@ public class ItemPickup : MonoBehaviour
 {
     [SerializeField] private Item item;
     private bool InRange;
+    public Score score;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && InRange && DialogueManager.isActive == false)
@@ -29,6 +30,7 @@ public class ItemPickup : MonoBehaviour
     {
         InventoryManager.instance.AddItem(item);
         Destroy(gameObject);
+        score.AddScore(1);
     }
 
     private void OnTriggerExit2D(Collider2D other)
