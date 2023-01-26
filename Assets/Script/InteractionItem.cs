@@ -42,7 +42,7 @@ public class InteractionItem : MonoBehaviour
     {
         InventoryManager.instance.AddItem(item);
         Destroy(gameObject);
-        Score.instance.ScoreUp();
         alreadyPicked = true;
+        score.AddScore(1);
     }
 }
