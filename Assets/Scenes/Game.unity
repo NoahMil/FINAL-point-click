@@ -813,7 +813,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &268556303
 MonoBehaviour:
@@ -965,7 +965,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: cb0c19bc0f8520f43a077dc68c77813f, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.4
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1180,7 +1180,7 @@ Transform:
   - {fileID: 1153692403}
   - {fileID: 182758728}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &405347997
 GameObject:
@@ -1285,6 +1285,7 @@ MonoBehaviour:
   item: {fileID: 11400000, guid: 4923fe14e2efdd64e90837bbc9b6e5e2, type: 2}
   score: {fileID: 1528301728}
   doorbellSE: {fileID: 1374389533}
+  collectitem: {fileID: 740873746}
 --- !u!224 &425796100 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 322623288616628673, guid: c9e6d4e3dae83c04e88705c96cd84bc7, type: 3}
@@ -1799,7 +1800,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9176eeb6e238f1c4c98e1323d9050884, type: 2}
+  - {fileID: 2100000, guid: 052365af75115564093182a8ffb08ec0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6675,6 +6676,7 @@ MonoBehaviour:
   item: {fileID: 11400000, guid: 2ddabef3316d14747a772483c6c5d767, type: 2}
   score: {fileID: 1528301728}
   doorbellSE: {fileID: 289111612}
+  collectitem: {fileID: 740873746}
 --- !u!1 &662698915
 GameObject:
   m_ObjectHideFlags: 0
@@ -6872,6 +6874,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 740873745}
+  - component: {fileID: 740873746}
   m_Layer: 0
   m_Name: Hidden items
   m_TagString: Untagged
@@ -6896,6 +6899,102 @@ Transform:
   m_Father: {fileID: 2084023830}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &740873746
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740873744}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0079f79e200229e409a793871fac6a82, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &867732225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6907,6 +7006,10 @@ PrefabInstance:
       propertyPath: score
       value: 
       objectReference: {fileID: 1528301728}
+    - target: {fileID: -2070087199042127735, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: collectitem
+      value: 
+      objectReference: {fileID: 740873746}
     - target: {fileID: 534431946609097123, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
       propertyPath: m_Name
       value: reindeer
@@ -7370,6 +7473,7 @@ MonoBehaviour:
   item: {fileID: 11400000, guid: ec7d2faf07369214a8292aeb365c6924, type: 2}
   score: {fileID: 1528301728}
   doorbellSE: {fileID: 266892371}
+  collectitem: {fileID: 740873746}
 --- !u!1 &1101941223
 GameObject:
   m_ObjectHideFlags: 0
@@ -7819,7 +7923,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1305063734
 GameObject:
@@ -8453,11 +8557,11 @@ Transform:
   m_GameObject: {fileID: 1439878556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -3, z: 0}
-  m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
+  m_LocalScale: {x: 0.093, y: 0.093, z: 0.093}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1439878560
 Animator:
@@ -8590,6 +8694,10 @@ PrefabInstance:
       propertyPath: score
       value: 
       objectReference: {fileID: 1528301728}
+    - target: {fileID: -3322277968040576953, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: collectitem
+      value: 
+      objectReference: {fileID: 740873746}
     - target: {fileID: 5191450491058987952, guid: 17625f549863c554793497ac82ded0d0, type: 3}
       propertyPath: m_Name
       value: christmas-sock
@@ -10177,7 +10285,7 @@ MonoBehaviour:
   actors:
   - name: Inspecteur
     sprite: {fileID: 342474628, guid: e6b913222dfecda4892e3ff817a41fe8, type: 3}
-  - name: Villageois Chad
+  - name: Villageois viril
     sprite: {fileID: 21300000, guid: fc64e00b2f785e647bdb94ed1d367000, type: 3}
 --- !u!114 &2021752937
 MonoBehaviour:
@@ -10195,6 +10303,7 @@ MonoBehaviour:
   item: {fileID: 11400000, guid: c426227d1f7857b4eb704cc1a87a9513, type: 2}
   score: {fileID: 1528301728}
   doorbellSE: {fileID: 1374389533}
+  collectitem: {fileID: 740873746}
 --- !u!1 &2056208487
 GameObject:
   m_ObjectHideFlags: 0
@@ -10409,7 +10518,7 @@ Transform:
   - {fileID: 1837037018}
   - {fileID: 740873745}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2087063540
 GameObject:
@@ -10598,6 +10707,7 @@ MonoBehaviour:
   item: {fileID: 11400000, guid: f1e44d868df1fec4bbcaf301f1a6d294, type: 2}
   score: {fileID: 1528301728}
   doorbellSE: {fileID: 289111612}
+  collectitem: {fileID: 740873746}
 --- !u!1001 &7302464447982443038
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -10,6 +10,8 @@ public class InteractionItem : MonoBehaviour
     [SerializeField] private Item item;
     public Score score;
     [SerializeField] private AudioSource doorbellSE;
+    [SerializeField] private AudioSource collectitem;
+
 
     
     private void Update()
@@ -48,5 +50,6 @@ public class InteractionItem : MonoBehaviour
         Destroy(gameObject);
         alreadyPicked = true;
         score.score++;
+        collectitem.Play();
     }
 }
