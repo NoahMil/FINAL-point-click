@@ -1,31 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61e7ab09-de37-40e4-a89a-a86d46c08ec0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FINAL-point-click/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FINAL-point-click/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FINAL-point-click/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.FINAL-point-click/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/YOU-WIN (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/YOU-WIN (1).jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/YOU-WIN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/YOU-WIN.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/YOU-WIN2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/YOU-WIN2.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Win.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Win.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/InteractionItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InteractionItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/ItemPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/ItemPickup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Score.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Score.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
-    </list>
+    <list default="true" id="61e7ab09-de37-40e4-a89a-a86d46c08ec0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/InteractionWin.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

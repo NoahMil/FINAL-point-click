@@ -43,6 +43,6 @@ public class InteractionItem : MonoBehaviour
         InventoryManager.instance.AddItem(item);
         Destroy(gameObject);
         alreadyPicked = true;
-        score.AddScore(1);
+        score.score++;
     }
 }

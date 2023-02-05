@@ -32,7 +32,6 @@ public class DialogueManager : MonoBehaviour
         currentActors = actors;
         activeMessage = 0;
         isActive = true;
-        Debug.Log("Started conversation! Loaded messages: " + messages.Length);
         DisplayMessage();
         backgroundBox.transform.localScale = Vector3.one;
     }
@@ -59,7 +58,6 @@ public class DialogueManager : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Conversation ended!");
                     backgroundBox.transform.localScale = Vector3.zero;
                     StartCoroutine(delay());
                 }

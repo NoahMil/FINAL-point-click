@@ -662,14 +662,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messages:
   - actorId: 0
-    message: Salut
+    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
+  - actorId: 0
+    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
   - actorId: 1
-    message: yo
+    message: "Bonsoir monsieur! Le P\xE8re-No\xEAl n'a pas disparu, je l'ai vu \xE0
+      la t\xE9l\xE9 ce matin!"
+  - actorId: 0
+    message: Ah oui d'accord.
+  - actorId: 1
+    message: "Si tu veux j'ai laiss\xE9 mon ami renne dans un des arbres ou buissons
+      du quartier, je te le donne!"
+  - actorId: 0
+    message: Merci du cadeau, va dormir maintenant.
   actors:
-  - name: MOI
-    sprite: {fileID: 21300000, guid: 62ce01ddca719d34ea9648c586a7cc94, type: 3}
-  - name: TOI
-    sprite: {fileID: 21300000, guid: ff00345da0563d641903c5bd5bb748a4, type: 3}
+  - name: Inspecteur
+    sprite: {fileID: 1696291053, guid: e6b913222dfecda4892e3ff817a41fe8, type: 3}
+  - name: "Enfant f\xEAtard"
+    sprite: {fileID: 21300000, guid: bd4ad270d323bf541baaaa5735c8a528, type: 3}
 --- !u!1 &268556300
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,7 +710,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &268556303
 MonoBehaviour:
@@ -810,10 +820,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messages:
   - actorId: 0
-    message: 
+    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
+  - actorId: 0
+    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
+  - actorId: 2
+    message: "Bonsoir jeune homme, d\xE9sol\xE9e mais nous sommes en retard "
+  - actorId: 1
+    message: "Petit, ram\xE8ne-moi les objets de cette liste et tu pourras me voir,
+      j'en ai besoin pour cette nuit!"
+  - actorId: 1
+    message: "1. un th\xE9 ; 2. un calendrier ; 3. une chausette de No\xEBl ; 4.
+      un bonhomme en pain d'\xE9pice ; 5. une peluche de rennes ; 6. une boule \xE0
+      neige ; 7. une \xE9toile de No\xEBl"
+  - actorId: 0
+    message: Euh d'accord merci, je vais voir ce que je peux faire.
+  - actorId: 0
+    message: "(Bizarre comme rencontre, gardons cette liste en t\xEAte et continuons
+      les recherches...)"
   actors:
-  - name: 
-    sprite: {fileID: 0}
+  - name: Inspecteur
+    sprite: {fileID: 1696291053, guid: e6b913222dfecda4892e3ff817a41fe8, type: 3}
+  - name: Villageois vieux
+    sprite: {fileID: 21300000, guid: d21685c3a2b410b45b93b51ab50470ee, type: 3}
+  - name: "Villageoise \xE2g\xE9e"
+    sprite: {fileID: 21300000, guid: a753376373956a24cbeb98f8bec90598, type: 3}
 --- !u!1 &340170883
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,7 +975,7 @@ Transform:
   - {fileID: 1153692403}
   - {fileID: 182758728}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &405347997
 GameObject:
@@ -958,7 +988,7 @@ GameObject:
   - component: {fileID: 405347998}
   - component: {fileID: 405348001}
   - component: {fileID: 405348004}
-  - component: {fileID: 405348003}
+  - component: {fileID: 405348005}
   m_Layer: 0
   m_Name: Door7
   m_TagString: Untagged
@@ -1007,19 +1037,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9604584, y: 0.87044656}
   m_EdgeRadius: 0
---- !u!114 &405348003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 405347997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b27f265e4d356643a3df1c599d051ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue: {fileID: 405348004}
 --- !u!114 &405348004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1034,8 +1051,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messages:
   - actorId: 0
-    message: 
-  actors: []
+    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
+  - actorId: 0
+    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
+  - actorId: 1
+    message: "Salut le moustachu, je sais pas o\xF9 est ton P\xE8re-No\xEBl non.
+      Tiens prends \xE7a, t'es tout maigre t'en auras plus besoin que moi"
+  - actorId: 0
+    message: "Merci pour votre aide, je retourne \xE0 mon investigation!"
+  actors:
+  - name: Inspecteur
+    sprite: {fileID: 1696291053, guid: e6b913222dfecda4892e3ff817a41fe8, type: 3}
+  - name: Villageois gourmand
+    sprite: {fileID: 21300000, guid: 3bfb42cb49bc27a45b501d15ec399cc5, type: 3}
+--- !u!114 &405348005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405347997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7efe6c33ad9c74f4c88f1c4e00ef1622, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 405348004}
+  item: {fileID: 11400000, guid: 4923fe14e2efdd64e90837bbc9b6e5e2, type: 2}
+  score: {fileID: 1528301728}
 --- !u!224 &425796100 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 322623288616628673, guid: c9e6d4e3dae83c04e88705c96cd84bc7, type: 3}
@@ -1253,7 +1296,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &495500691 stripped
 RectTransform:
@@ -1657,7 +1700,7 @@ GameObject:
   - component: {fileID: 609032936}
   - component: {fileID: 609032939}
   - component: {fileID: 609032943}
-  - component: {fileID: 609032942}
+  - component: {fileID: 609032944}
   m_Layer: 0
   m_Name: Door8
   m_TagString: Untagged
@@ -1706,19 +1749,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.70337224, y: 0.72881484}
   m_EdgeRadius: 0
---- !u!114 &609032942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 609032935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b27f265e4d356643a3df1c599d051ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue: {fileID: 609032943}
 --- !u!114 &609032943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1733,8 +1763,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messages:
   - actorId: 0
-    message: 
-  actors: []
+    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
+  - actorId: 0
+    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
+  - actorId: 1
+    message: "Hello! Je ne savais pas que le P\xE8re-No\xEBl avait disparu malheureusement.
+      Prenez cette jolie boule \xE0 neige j'esp\xE8re qu'elle vous guidera!"
+  - actorId: 0
+    message: "Merci pour votre aide, je retourne \xE0 mon investigation!"
+  actors:
+  - name: Inspecteur
+    sprite: {fileID: 1696291053, guid: e6b913222dfecda4892e3ff817a41fe8, type: 3}
+  - name: Villageoise heureuse
+    sprite: {fileID: 21300000, guid: a349ad20029fe9146ac8b7fef53db589, type: 3}
+--- !u!114 &609032944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609032935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7efe6c33ad9c74f4c88f1c4e00ef1622, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 609032943}
+  item: {fileID: 11400000, guid: 2ddabef3316d14747a772483c6c5d767, type: 2}
+  score: {fileID: 1528301728}
 --- !u!1 &662698915
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,7 +1873,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &698247776
 GameObject:
@@ -1917,74 +1973,13 @@ RectTransform:
   - {fileID: 2056208488}
   - {fileID: 764347833}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1001 &709679370
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3222431559120637841, guid: 0acbbfc8f21b7594ab855cbd59c1cc4d, type: 3}
-      propertyPath: score
-      value: 
-      objectReference: {fileID: 1528301728}
-    - target: {fileID: 3500632567034598660, guid: 0acbbfc8f21b7594ab855cbd59c1cc4d, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3500632567034598660, guid: 0acbbfc8f21b7594ab855cbd59c1cc4d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.3680556
-      objectReference: {fileID: 0}
-    - target: {fileID: 3500632567034598660, guid: 0acbbfc8f21b7594ab855cbd59c1cc4d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.9870253
-      objectReference: {fileID: 0}
-    - target: {fileID: 3500632567034598660, guid: 0acbbfc8f21b7594ab855cbd59c1cc4d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3500632567034598660, guid: 0acbbfc8f21b7594ab855cbd59c1cc4d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3500632567034598660, guid: 0acbbfc8f21b7594ab855cbd59c1cc4d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3500632567034598660, guid: 0acbbfc8f21b7594ab855cbd59c1cc4d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3500632567034598660, guid: 0acbbfc8f21b7594ab855cbd59c1cc4d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3500632567034598660, guid: 0acbbfc8f21b7594ab855cbd59c1cc4d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3500632567034598660, guid: 0acbbfc8f21b7594ab855cbd59c1cc4d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3500632567034598660, guid: 0acbbfc8f21b7594ab855cbd59c1cc4d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5020486570545679051, guid: 0acbbfc8f21b7594ab855cbd59c1cc4d, type: 3}
-      propertyPath: m_Name
-      value: gift
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0acbbfc8f21b7594ab855cbd59c1cc4d, type: 3}
 --- !u!1 &764347832
 GameObject:
   m_ObjectHideFlags: 0
@@ -2163,6 +2158,91 @@ MonoBehaviour:
   actorName: {fileID: 1925461734}
   messageText: {fileID: 149978489}
   backgroundBox: {fileID: 1759595312}
+--- !u!1001 &867732225
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -2070087199042127735, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1528301728}
+    - target: {fileID: 534431946609097123, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_Name
+      value: reindeer
+      objectReference: {fileID: 0}
+    - target: {fileID: 747298258913006407, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 747298258913006407, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773499429759075258, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5559925
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773499429759075258, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_Size.y
+      value: 0.86050105
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773499429759075258, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.112125695
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773499429759075258, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.056420445
+      objectReference: {fileID: 0}
+    - target: {fileID: 5339449712617351492, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5339449712617351492, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.605
+      objectReference: {fileID: 0}
+    - target: {fileID: 5339449712617351492, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.419
+      objectReference: {fileID: 0}
+    - target: {fileID: 5339449712617351492, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5339449712617351492, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5339449712617351492, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5339449712617351492, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5339449712617351492, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5339449712617351492, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5339449712617351492, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5339449712617351492, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 25fe5566dea5411499608c40102b28b3, type: 3}
 --- !u!224 &873559463 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 322623288616628673, guid: c9e6d4e3dae83c04e88705c96cd84bc7, type: 3}
@@ -2449,7 +2529,7 @@ GameObject:
   - component: {fileID: 991888160}
   - component: {fileID: 991888163}
   - component: {fileID: 991888166}
-  - component: {fileID: 991888165}
+  - component: {fileID: 991888167}
   m_Layer: 0
   m_Name: Door3
   m_TagString: Untagged
@@ -2498,19 +2578,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0267246, y: 1.0546055}
   m_EdgeRadius: 0
---- !u!114 &991888165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991888159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b27f265e4d356643a3df1c599d051ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue: {fileID: 991888166}
 --- !u!114 &991888166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2525,8 +2592,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messages:
   - actorId: 0
-    message: 
-  actors: []
+    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
+  - actorId: 1
+    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
+  - actorId: 1
+    message: "Bonsoir l'ami. Le P\xE8re-No\xEBl n'existe pas voyons!"
+  - actorId: 0
+    message: Mais...
+  - actorId: 1
+    message: "Tu sais quoi? Tu as l'air d'adorer la magie de No\xEBl je vais donc
+      te donner une \xE9toile en or,  je suis tellement riche que j'en ai achet\xE9
+      deux aha!"
+  - actorId: 0
+    message: "Euh... tr\xE8s bien merci pour votre aide."
+  actors:
+  - name: Inspecteur
+    sprite: {fileID: 342474628, guid: e6b913222dfecda4892e3ff817a41fe8, type: 3}
+  - name: Villageois riche
+    sprite: {fileID: 21300000, guid: 81e150478a5d2d244a6d63118ad591d2, type: 3}
+--- !u!114 &991888167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991888159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7efe6c33ad9c74f4c88f1c4e00ef1622, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 991888166}
+  item: {fileID: 11400000, guid: ec7d2faf07369214a8292aeb365c6924, type: 2}
+  score: {fileID: 1528301728}
 --- !u!1 &1101941223
 GameObject:
   m_ObjectHideFlags: 0
@@ -2761,7 +2859,7 @@ Transform:
   - {fileID: 405347998}
   - {fileID: 609032936}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1305063734
 GameObject:
@@ -3186,14 +3284,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messages:
   - actorId: 0
-    message: Salut mec
+    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
   - actorId: 1
-    message: Bienvenue
+    message: Yo mec, j'ai un indice pour toi ouais.
+  - actorId: 0
+    message: Dites m'en plus?
+  - actorId: 1
+    message: "J'ai laiss\xE9 ma chaussette dans une des bo\xEEtes aux lettres du
+      quartier, je te la donne, elle est \xE0 toi."
+  - actorId: 0
+    message: Ah... super merci pour votre aide.
   actors:
-  - name: House
-    sprite: {fileID: 0}
-  - name: Inspector
-    sprite: {fileID: 0}
+  - name: Inspecteur
+    sprite: {fileID: 342474628, guid: e6b913222dfecda4892e3ff817a41fe8, type: 3}
+  - name: Villageois sale
+    sprite: {fileID: 21300000, guid: ea03ad67350d4ce48a07d9e7bb52c4f7, type: 3}
 --- !u!114 &1374389532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3294,7 +3399,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1439878560
 Animator:
@@ -3400,6 +3505,91 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1001 &1457259225
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4340425459998139017, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_Size.x
+      value: 0.30636382
+      objectReference: {fileID: 0}
+    - target: {fileID: -4340425459998139017, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_Size.y
+      value: 0.4465679
+      objectReference: {fileID: 0}
+    - target: {fileID: -4340425459998139017, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.05654347
+      objectReference: {fileID: 0}
+    - target: {fileID: -4340425459998139017, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0091481805
+      objectReference: {fileID: 0}
+    - target: {fileID: -3322277968040576953, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1528301728}
+    - target: {fileID: 5191450491058987952, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_Name
+      value: christmas-sock
+      objectReference: {fileID: 0}
+    - target: {fileID: 5341996955174543669, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5341996955174543669, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 5341996955174543669, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 5341996955174543669, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5341996955174543669, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5341996955174543669, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5341996955174543669, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5341996955174543669, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5341996955174543669, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5341996955174543669, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5341996955174543669, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7898826159986011690, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7898826159986011690, guid: 17625f549863c554793497ac82ded0d0, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 17625f549863c554793497ac82ded0d0, type: 3}
 --- !u!1001 &1498405685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4548,6 +4738,52 @@ Transform:
   m_Father: {fileID: 2084023830}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1903171938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1903171940}
+  - component: {fileID: 1903171939}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1903171939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903171938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14c790e873e21534c8a6f0e0b531e09a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreText: {fileID: 1329282180}
+  score: 0
+--- !u!4 &1903171940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903171938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.53255975, y: -0.5286827, z: -9.994597}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1914527038
 GameObject:
   m_ObjectHideFlags: 0
@@ -4667,8 +4903,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: 29.909103}
-  m_SizeDelta: {x: 200, y: 45}
+  m_AnchoredPosition: {x: 464.99997, y: 29.909103}
+  m_SizeDelta: {x: 630, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1925461733
 CanvasRenderer:
@@ -4883,14 +5119,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messages:
   - actorId: 0
-    message: Hello?
+    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
   - actorId: 1
-    message: ...
+    message: "Hey ptit gars, j'ai aucune id\xE9e de quoi tu parles mais prends ce
+      th\xE9 il fait froid dehors!"
+  - actorId: 0
+    message: "Merci pour votre aide, je retourne \xE0 mon investigation!"
   actors:
-  - name: Inspector
+  - name: Inspecteur
     sprite: {fileID: 342474628, guid: e6b913222dfecda4892e3ff817a41fe8, type: 3}
-  - name: Door1
-    sprite: {fileID: 21300000, guid: d21685c3a2b410b45b93b51ab50470ee, type: 3}
+  - name: Villageois Chad
+    sprite: {fileID: 21300000, guid: fc64e00b2f785e647bdb94ed1d367000, type: 3}
 --- !u!114 &2021752937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5111,7 +5350,7 @@ Transform:
   - {fileID: 1505892418}
   - {fileID: 1837037018}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2087063540
 GameObject:
@@ -5209,6 +5448,7 @@ GameObject:
   - component: {fileID: 2117036072}
   - component: {fileID: 2117036075}
   - component: {fileID: 2117036074}
+  - component: {fileID: 2117036076}
   m_Layer: 0
   m_Name: Door2
   m_TagString: Untagged
@@ -5284,8 +5524,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messages:
   - actorId: 0
-    message: 
-  actors: []
+    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
+  - actorId: 0
+    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
+  - actorId: 1
+    message: "Bonsoir. Non d\xE9sol\xE9e, je ne sais rien. Mais prenez \xE7a, j'en
+      ai achet\xE9 un de trop \xE0 la boulangerie."
+  - actorId: 0
+    message: "Merci pour votre aide, je retourne \xE0 mon 'investigation!"
+  actors:
+  - name: Inspecteur
+    sprite: {fileID: 342474628, guid: e6b913222dfecda4892e3ff817a41fe8, type: 3}
+  - name: "M\xE8re de Kevin"
+    sprite: {fileID: 21300000, guid: 9154fd983e0ac8f40be3adb4af5f0f39, type: 3}
+--- !u!114 &2117036076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117036068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7efe6c33ad9c74f4c88f1c4e00ef1622, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue: {fileID: 2117036075}
+  item: {fileID: 11400000, guid: f1e44d868df1fec4bbcaf301f1a6d294, type: 2}
+  score: {fileID: 1528301728}
 --- !u!1001 &7302464447982443038
 PrefabInstance:
   m_ObjectHideFlags: 0
