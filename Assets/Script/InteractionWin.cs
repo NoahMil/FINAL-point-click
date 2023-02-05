@@ -9,12 +9,22 @@ public class InteractionWin : MonoBehaviour
     private bool InRange;
     public Score score;
 
-
+    [SerializeField] private AudioSource doorbellSE;
+    
     private void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Space) && InRange && DialogueManager.isActive == false)
         {
-            dialogue.StartDialogue();
+            if (score.score >= 7)
+            {
+                Win();
+            }
+            else
+            {
+                doorbellSE.Play();
+                dialogue.StartDialogue();
+            }
         }
     }
 
@@ -34,16 +44,8 @@ public class InteractionWin : MonoBehaviour
         }
     }
     
-    
-   // public void Win()
-   //  {
-   //      if (score.newScore == 7)
-   //      {
-   //          Debug.Log("You win!");
-   //
-   //          SceneManager.LoadScene("Win");
-   //      }
-   //  }
-    
-
+    public void Win()
+    {
+        SceneManager.LoadScene("Win");
+    }
 }

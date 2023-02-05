@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,12 +9,16 @@ public class InventoryManager : MonoBehaviour
 
     public InventorySlot[] inventorySlots;
     public GameObject inventoryItemPrefab;
+    public GameObject Inventory;
+    public GameObject CloseInventory;
 
     private void Awake()
     {
         instance = this;
+        Inventory.SetActive(true);
+        CloseInventory.SetActive(true);
     }
-
+    
     public bool AddItem(Item item)
     {
         for (int i = 0; i < inventorySlots.Length; i++)

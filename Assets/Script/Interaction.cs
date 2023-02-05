@@ -9,11 +9,13 @@ public class Interaction : MonoBehaviour
 {
     public Dialogue dialogue;
     private bool InRange;
-    
+    [SerializeField] private AudioSource doorbellSE;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && InRange && DialogueManager.isActive == false)
         {
+            doorbellSE.Play();
             dialogue.StartDialogue();
         }
     }

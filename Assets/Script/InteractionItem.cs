@@ -9,12 +9,16 @@ public class InteractionItem : MonoBehaviour
     private bool alreadyPicked;
     [SerializeField] private Item item;
     public Score score;
+    [SerializeField] private AudioSource doorbellSE;
+
     
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && InRange && DialogueManager.isActive == false)
         {
+            doorbellSE.Play();
             dialogue.StartDialogue();
+            
             if (alreadyPicked == !true)
             {
                 Pickup();
