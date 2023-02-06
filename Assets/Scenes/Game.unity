@@ -7442,6 +7442,8 @@ MonoBehaviour:
   messages:
   - actorId: 0
     message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
+  - actorId: 0
+    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
   - actorId: 1
     message: "Bonsoir l'ami. Le P\xE8re-No\xEBl n'existe pas voyons!"
   - actorId: 0
@@ -7891,9 +7893,11 @@ MonoBehaviour:
       gauche de la souris et int\xE9ragis avec le d\xE9cor et les dialogues avec
       la touche ESPACE."
   - actorId: 0
-    message: "Nous devons retrouver le P\xE8re-No\xEBl port\xE9 disparu et sauver
-      le monde ou personne n'aura de cadeau demain matin! Allons-y pas de temps \xE0
-      perdre!"
+    message: "Nous devons retrouver le P\xE8re-No\xEBl port\xE9 disparu ou personne
+      n'aura de cadeau demain matin! Allons demander des indices au voisinage en
+      toquant \xE0 leur portes!"
+  - actorId: 0
+    message: "C'est parti, pas de temps \xE0 perdre!"
   actors:
   - name: Inspecteur
     sprite: {fileID: 1696291053, guid: e6b913222dfecda4892e3ff817a41fe8, type: 3}
