@@ -10,7 +10,14 @@ public class InteractionWin : MonoBehaviour
     public Score score;
 
     [SerializeField] private AudioSource doorbellSE;
+    [SerializeField] private GameObject lightedhouse ;
+
     
+    private void Start()
+    {
+        lightedhouse.SetActive(false);
+    }
+
     private void Update()
     {
 
@@ -23,6 +30,7 @@ public class InteractionWin : MonoBehaviour
             else
             {
                 doorbellSE.Play();
+                lightedhouse.SetActive(true);
                 dialogue.StartDialogue();
             }
         }
@@ -41,6 +49,7 @@ public class InteractionWin : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             InRange = false;
+            lightedhouse.SetActive(false);
         }
     }
     
