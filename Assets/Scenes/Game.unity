@@ -655,6 +655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: {fileID: 266892370}
   doorbellSE: {fileID: 266892371}
+  lightedhouse: {fileID: 392585765}
 --- !u!114 &266892370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1114,6 +1115,11 @@ CircleCollider2D:
   m_Offset: {x: 0.004277855, y: -0.48672736}
   serializedVersion: 2
   m_Radius: 0.11898142
+--- !u!1 &392585765 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7401201794707127010, guid: 85df065d85b725843ae87bf56c5673ad, type: 3}
+  m_PrefabInstance: {fileID: 678509859}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &403078906
 GameObject:
   m_ObjectHideFlags: 0
@@ -6761,6 +6767,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &678509859
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6642912044998354141, guid: 85df065d85b725843ae87bf56c5673ad, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6642912044998354141, guid: 85df065d85b725843ae87bf56c5673ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6642912044998354141, guid: 85df065d85b725843ae87bf56c5673ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6642912044998354141, guid: 85df065d85b725843ae87bf56c5673ad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6642912044998354141, guid: 85df065d85b725843ae87bf56c5673ad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6642912044998354141, guid: 85df065d85b725843ae87bf56c5673ad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6642912044998354141, guid: 85df065d85b725843ae87bf56c5673ad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6642912044998354141, guid: 85df065d85b725843ae87bf56c5673ad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6642912044998354141, guid: 85df065d85b725843ae87bf56c5673ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6642912044998354141, guid: 85df065d85b725843ae87bf56c5673ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6642912044998354141, guid: 85df065d85b725843ae87bf56c5673ad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7401201794707127010, guid: 85df065d85b725843ae87bf56c5673ad, type: 3}
+      propertyPath: m_Name
+      value: Background5NEW
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 85df065d85b725843ae87bf56c5673ad, type: 3}
 --- !u!1 &698247776
 GameObject:
   m_ObjectHideFlags: 0
@@ -8382,6 +8445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: {fileID: 1374389530}
   doorbellSE: {fileID: 1374389533}
+  lightedhouse: {fileID: 0}
 --- !u!82 &1374389533
 AudioSource:
   m_ObjectHideFlags: 0

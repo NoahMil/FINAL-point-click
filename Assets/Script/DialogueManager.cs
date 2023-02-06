@@ -68,6 +68,6 @@ public class DialogueManager : MonoBehaviour
     private IEnumerator delay()
     {
         yield return new WaitForSeconds(0.1f);
-        isActive = false;
+        isActive = false; 
     }
 }
