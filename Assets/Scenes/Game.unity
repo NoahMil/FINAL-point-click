@@ -10679,8 +10679,6 @@ MonoBehaviour:
   messages:
   - actorId: 0
     message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
-  - actorId: 0
-    message: "Bonsoir. Auriez-vous des indices concernant la disparition du P\xE8re-No\xEBl?"
   - actorId: 1
     message: "Bonsoir. Non d\xE9sol\xE9e, je ne sais rien. Mais prenez \xE7a, j'en
       ai achet\xE9 un de trop \xE0 la boulangerie."
