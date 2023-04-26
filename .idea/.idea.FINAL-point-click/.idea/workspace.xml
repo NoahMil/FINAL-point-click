@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61e7ab09-de37-40e4-a89a-a86d46c08ec0" name="Changes" comment="" />
+    <list default="true" id="61e7ab09-de37-40e4-a89a-a86d46c08ec0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FINAL-point-click/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FINAL-point-click/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Background/3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BackgroundNEW.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/Background/BackgroundNEW.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Build/docs.data.unityweb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Build/docs.data.unityweb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Build/docs.framework.js.unityweb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Build/docs.framework.js.unityweb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Build/docs.wasm.unityweb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Build/docs.wasm.unityweb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/InteractionItem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,6 +40,14 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/build\Christmas Point&amp;Click Game.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\GitHub Dekstop\FINAL-point-click\build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\NOAH\AppData\Local\GitHubDesktop\FINAL-point-click -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
@@ -72,6 +91,14 @@
       <workItem from="1675611739311" duration="5106000" />
       <workItem from="1675681515969" duration="2396000" />
       <workItem from="1675709084604" duration="4728000" />
+      <workItem from="1675852829660" duration="4411000" />
+      <workItem from="1676284206206" duration="820000" />
+      <workItem from="1676301049181" duration="1638000" />
+      <workItem from="1676898032001" duration="984000" />
+      <workItem from="1677054712918" duration="1216000" />
+      <workItem from="1677061206976" duration="5201000" />
+      <workItem from="1677076214308" duration="1943000" />
+      <workItem from="1682503549575" duration="681000" />
     </task>
     <servers />
   </component>
