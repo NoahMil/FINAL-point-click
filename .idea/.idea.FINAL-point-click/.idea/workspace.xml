@@ -3,229 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="61e7ab09-de37-40e4-a89a-a86d46c08ec0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FINAL-point-click/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FINAL-point-click/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG1.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG2.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG3.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG3.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG3.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG4.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG4.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG4.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG5.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG5.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG5.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG6.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG6.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG6.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG7.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG7.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG7.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG8.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG8.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BG8.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BackgroundNEW.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Background/BackgroundNEW.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/2D.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/2D/ItemSlot.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/2D/ItemSlot.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/2D/ItemsNEW.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/2D/ItemsNEW.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/calendar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/calendar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/calendar.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/calendar.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/candy-cane.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/candy-cane.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/candy-cane.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/candy-cane.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/christmas-sock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/christmas-sock.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/christmas-sock.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/christmas-sock.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/gift.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/gift.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/gift.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/gift.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/gingerbread-man.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/gingerbread-man.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/gingerbread-man.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/gingerbread-man.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/reindeer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/reindeer.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/reindeer.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/reindeer.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/snow-globe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/snow-globe.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/snow-globe.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/snow-globe.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/star.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/star.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/star.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/tea.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/tea.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/tea.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Items/tea.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Letterboxs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Letterboxs/letterbox1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Letterboxs/letterbox1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Letterboxs/letterbox2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Letterboxs/letterbox2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Letterboxs/letterbox3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Letterboxs/letterbox3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Letterboxs/letterbox4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Letterboxs/letterbox4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Material.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Material/Snow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Material/Snow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Trees.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Trees/Tree1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Trees/Tree1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Trees/Tree2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Trees/Tree2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Trees/Tree3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Trees/Tree3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Trees/Tree4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Objects/Trees/Tree4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Idle Left.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Idle Left.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Idle Right.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Idle Right.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Interaction Left.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Interaction Left.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/InteractionRight.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/InteractionRight.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Player.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Player.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Player.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Player.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Player_5.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Player_5.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Walk Left.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Walk Left.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Walk Right.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Player/Walk Right.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/avatarenfants1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/avatarenfants1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar13.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar17.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar19.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar24.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Characters/jeux-avatar9.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Fonts/Purple Smile SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Fonts/Purple Smile SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Fonts/Purple Smile.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Fonts/Purple Smile.otf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/BOUTONS-JEUX-CLOSE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/BOUTONS-JEUX-CLOSE.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/BOUTONS-JEUX-SETTINGS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/BOUTONS-JEUX-SETTINGS.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/BOUTONS-JEUX-START.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/BOUTONS-JEUX-START.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/JEUX (1) (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/JEUX (1) (1).jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/JEUX.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/JEUX.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/YOU-WIN (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/YOU-WIN (1).jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/YOU-WIN (2) (1) (3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/YOU-WIN (2) (1) (3).jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/YOU-WIN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/YOU-WIN.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/YOU-WIN2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/MainMenu/YOU-WIN2.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Panel.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Panel/cadre bulle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI/Panel/cadre bulle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/Calendar.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/Calendar.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/CandyCane.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/CandyCane.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/ChristmasSock.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/ChristmasSock.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/Gift.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/Gift.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/GingerbreadMan.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/GingerbreadMan.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/Reindeer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/Reindeer.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/SnowGlobe.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/SnowGlobe.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/Star.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/Star.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/Tea.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Items/Tea.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game/NavMesh-NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game/NavMesh-NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Win.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Win.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Test.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Test.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Musics/[Dessin Animé] Musique - La Panthère Rose.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Musics/[Dessin Animé] Musique - La Panthère Rose.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Musics/happy-santa-127421.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Musics/happy-santa-127421.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Musics/santa-is-coming-on-christmas-125108.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Musics/santa-is-coming-on-christmas-125108.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Sounds.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Sounds/CollectItem.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Sounds/CollectItem.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Sounds/DoorBell1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Sounds/DoorBell1.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Sounds/DoorBell2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Sounds/DoorBell2.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Sounds/DoorKnock1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Sounds/DoorKnock1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Sounds/santa-claus-merry-christmas-ho-ho-ho.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sound/Sounds/santa-claus-merry-christmas-ho-ho-ho.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scene/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scene/Win.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scene/Win.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Interaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Interaction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InteractionItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InteractionItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/InteractionWin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/InteractionWin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/ItemPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/ItemPickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Score.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Score.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/StartingDialog.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/StartingDialog.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Build/docs.data.unityweb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Build/docs.data.unityweb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Build/docs.framework.js.unityweb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Build/docs.framework.js.unityweb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Build/docs.wasm.unityweb" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Build/docs.wasm.unityweb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +23,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/InteractionItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -314,6 +106,10 @@
       <workItem from="1677076214308" duration="1943000" />
       <workItem from="1682503549575" duration="681000" />
       <workItem from="1682667646231" duration="1003000" />
+      <workItem from="1695077919793" duration="383000" />
+      <workItem from="1695146442077" duration="854000" />
+      <workItem from="1696266349275" duration="298000" />
+      <workItem from="1698927289888" duration="11085000" />
     </task>
     <servers />
   </component>

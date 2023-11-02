@@ -9,6 +9,7 @@ public class InteractionItem : MonoBehaviour
     private bool InRange;
     private bool onDialog;
     private bool alreadypicked;
+    private bool awakeState;
     [SerializeField] private AudioSource doorbellSE;
     [SerializeField] private GameObject lightedhouse;
     [SerializeField] private AudioSource collectitem;
@@ -24,15 +25,18 @@ public class InteractionItem : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && InRange && DialogueManager.isActive == false && onDialog == false)
+        if (Input.GetKeyDown(KeyCode.Space) && InRange && DialogueManager.isActive == false && onDialog == false && awakeState == false) 
         {
             if (alreadypicked == false)
             {
                 PickupInteraction();
+                score.AchievementDisplay();
             }
             doorbellSE.Play();
             lightedhouse.SetActive(true);
             dialogue.StartDialogue();
+            awakeState = true;
+            GameManager.Instance.IncrementAwakeVillagers();
         }
     }
 

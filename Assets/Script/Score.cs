@@ -11,6 +11,8 @@ public class Score : MonoBehaviour
     public TextMeshProUGUI ScoreText;
     public int score = 0;
     
+    public Action<string> OnHintsFound;
+
     private void Start()
     {
         score = 0;
@@ -21,18 +23,20 @@ public class Score : MonoBehaviour
         ScoreText.text = "Indices : " + score;
     }
     
-
     void Update()
     {
         UpdateScore();
     }
-    
-    public void Win()
+
+    public void AchievementDisplay()
     {
+        if (score == 1)
+        {
+            OnHintsFound.Invoke("Sur la piste du Père-Noël !");
+        }
         if (score == 7)
         {
-            Debug.Log("You win!");
-            SceneManager.LoadScene("Win");
+            OnHintsFound.Invoke("Liste de Noël completée !");
         }
     }
 }

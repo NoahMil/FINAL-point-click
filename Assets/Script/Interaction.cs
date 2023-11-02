@@ -11,6 +11,7 @@ public class Interaction : MonoBehaviour
     public Dialogue dialogue;
     private bool InRange;
     private bool onDialog;
+    private bool awakeState;
     [SerializeField] private AudioSource doorbellSE;
     [SerializeField] private GameObject lightedhouse ;
 
@@ -22,11 +23,13 @@ public class Interaction : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && InRange && DialogueManager.isActive == false && onDialog == false)
+        if (Input.GetKeyDown(KeyCode.Space) && InRange && DialogueManager.isActive == false && onDialog == false && awakeState == false)
         {
             doorbellSE.Play();
             lightedhouse.SetActive(true);
             dialogue.StartDialogue();
+            awakeState = true;
+            GameManager.Instance.IncrementAwakeVillagers();
         }
     }
 

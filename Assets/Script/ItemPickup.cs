@@ -34,6 +34,7 @@ public class ItemPickup : MonoBehaviour
         Destroy(gameObject);
         score.score++;
         collectitem.Play();
+        score.AchievementDisplay();
     }
 
     private void OnTriggerExit2D(Collider2D other)

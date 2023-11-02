@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,7 +14,7 @@ public class InteractionWin : MonoBehaviour
     [SerializeField] private AudioSource doorbellSE;
     [SerializeField] private GameObject lightedhouse ;
 
-    
+    public Action<string> OnGameEnd;
     private void Start()
     {
         lightedhouse.SetActive(false);
@@ -20,12 +22,12 @@ public class InteractionWin : MonoBehaviour
 
     private void Update()
     {
-
         if (Input.GetKeyDown(KeyCode.Space) && InRange && DialogueManager.isActive == false)
         {
             if (score.score >= 7)
             {
                 Win();
+                OnGameEnd.Invoke("Père-Noël retrouvé!");
             }
             else
             {
