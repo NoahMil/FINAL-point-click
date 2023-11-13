@@ -10,6 +10,9 @@ public class ItemPickup : MonoBehaviour
     private bool InRange;
     public Score score;
     [SerializeField] private AudioSource collectitem;
+    
+    public static Action OnHintsFound;
+
 
     private void Update()
     {
@@ -32,9 +35,9 @@ public class ItemPickup : MonoBehaviour
     {
         InventoryManager.instance.AddItem(item);
         Destroy(gameObject);
-        score.score++;
+        Score.score++;
         collectitem.Play();
-        score.AchievementDisplay();
+        OnHintsFound?.Invoke();
     }
 
     private void OnTriggerExit2D(Collider2D other)

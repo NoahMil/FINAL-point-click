@@ -14,7 +14,8 @@ public class InteractionWin : MonoBehaviour
     [SerializeField] private AudioSource doorbellSE;
     [SerializeField] private GameObject lightedhouse ;
 
-    public Action<string> OnGameEnd;
+    public static Action<string> OnGameEnd;
+    
     private void Start()
     {
         lightedhouse.SetActive(false);
@@ -24,16 +25,17 @@ public class InteractionWin : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && InRange && DialogueManager.isActive == false)
         {
-            if (score.score >= 7)
+            if (Score.score >= 7)
             {
                 Win();
-                OnGameEnd.Invoke("Père-Noël retrouvé!");
+                OnGameEnd?.Invoke("Tu as retrouvé le Père-Noël !");
             }
             else
             {
                 doorbellSE.Play();
                 lightedhouse.SetActive(true);
                 dialogue.StartDialogue();
+                OnGameEnd?.Invoke("Ce vieil homme me rappelle quelqu'un...");
             }
         }
     }

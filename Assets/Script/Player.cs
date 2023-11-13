@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,13 +13,14 @@ public class Player : MonoBehaviour
     [SerializeField] private float scaleRatio;
     
     private Vector2 _stuckDistanceCheck;
-
-    
     private NavMeshAgent _agent;
     private Animator _animator;
-    private Vector2 stuckDistanceCheck;
     
-    // Start is called before the first frame update
+    public float maxAFKTime = 5f;
+    public float currentAFKTime = 0f;
+    
+    public static Action OnAFKTime;
+    
     void Start()
     {
         followSpot = transform.position;
@@ -29,17 +31,20 @@ public class Player : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (DialogueManager.isActive == true)
+        if (DialogueManager.isActive)
         {
-            _animator.SetBool("interaction", true);
-            Vector3 direction = transform.position - new Vector3(followSpot.x, followSpot.y, transform.position.z);
-            float angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
-            _animator.SetFloat("angle",angle);
+            HandleDialogueInteraction();
             return;
         }
+        HandlePlayerMovement();
+        AdjustPerspective();
+        UpdateAnimation();
+    }
+
+    private void HandlePlayerMovement()
+    {
         if (DialogueManager.isActive == false)
         {
             _animator.SetBool("interaction", false);
@@ -49,10 +54,22 @@ public class Player : MonoBehaviour
         if (Input.GetMouseButton(0) && !IsMouseOverUI())
         {
             followSpot = new Vector2(mousePosition.x, mousePosition.y);
+            currentAFKTime = 0f;
+        }
+
+        else
+        {
+            OnAFKTime?.Invoke();
         }
         _agent.SetDestination(new Vector3(followSpot.x, followSpot.y, transform.position.z));
-        AdjustPerspective();
-        UpdateAnimation();
+    }
+    
+    private void HandleDialogueInteraction()
+    {
+        _animator.SetBool("interaction", true);
+        Vector3 direction = transform.position - new Vector3(followSpot.x, followSpot.y, transform.position.z);
+        float angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
+        _animator.SetFloat("angle", angle);
     }
 
     private void UpdateAnimation()

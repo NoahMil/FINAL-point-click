@@ -7,10 +7,10 @@ public class GameManager : MonoBehaviour
 { 
     public static GameManager Instance { get; private set; }
 
-    private int awakeVillagers = 0;
-    private int totalVillagers;
+    public static int awakeVillagers = 0;
+    public static int totalVillagers;
     
-    public Action<string> OnVillagersAwake;
+    public static Action OnVillagersAwake;
     
     private void Awake()
     {
@@ -33,11 +33,7 @@ public class GameManager : MonoBehaviour
     public void IncrementAwakeVillagers()
     {
         awakeVillagers++;
-
-        if (awakeVillagers == totalVillagers)
-        {
-            OnVillagersAwake.Invoke("Tu as réveillé tout le village !");
-        }
+        OnVillagersAwake?.Invoke();
     }
 }
 

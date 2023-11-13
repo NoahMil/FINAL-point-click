@@ -1197,6 +1197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   achievementPanel: {fileID: 373088032}
   achievementText: {fileID: 494367604}
+  Player: {fileID: 1439878562}
 --- !u!4 &353741108
 Transform:
   m_ObjectHideFlags: 0
@@ -7309,7 +7310,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 1329282180}
-  score: 0
 --- !u!1 &740873744
 GameObject:
   m_ObjectHideFlags: 0
@@ -9210,6 +9210,8 @@ MonoBehaviour:
   speed: 1
   perspectiveScale: 0.03
   scaleRatio: 0.1
+  maxAFKTime: 5
+  currentAFKTime: 0
 --- !u!61 &1439878563
 BoxCollider2D:
   m_ObjectHideFlags: 0

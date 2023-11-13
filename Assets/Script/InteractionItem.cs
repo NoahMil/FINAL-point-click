@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,8 +16,8 @@ public class InteractionItem : MonoBehaviour
     [SerializeField] private AudioSource collectitem;
     [SerializeField] private Item item;
     
-
-
+    public static Action OnHintsFound;
+    
     private void Start()
     {
         lightedhouse.SetActive(false);
@@ -30,7 +31,7 @@ public class InteractionItem : MonoBehaviour
             if (alreadypicked == false)
             {
                 PickupInteraction();
-                score.AchievementDisplay();
+                OnHintsFound?.Invoke();
             }
             doorbellSE.Play();
             lightedhouse.SetActive(true);
@@ -61,8 +62,9 @@ public class InteractionItem : MonoBehaviour
     {
         InventoryManager.instance.AddItem(item); 
         Destroy(transform.GetChild(0).gameObject);
-        score.score++;
+        Score.score++;
         collectitem.Play();
         alreadypicked = true;
+        OnHintsFound?.Invoke();
     }
 }
