@@ -10,7 +10,7 @@ public class AchievementManager : MonoBehaviour
     public GameObject achievementPanel;
     public Text achievementText;
     private bool _achievementDisplayed;
-    private bool afkAchievementDisplayed = false;
+    private bool _afkAchievementDisplayed = false;
     private bool _afkAchievementDisplayed2 = false;
 
 
@@ -81,10 +81,10 @@ public class AchievementManager : MonoBehaviour
     private void AfkTime()
     {
         Player.currentAFKTime += Time.deltaTime;
-        if (Player.currentAFKTime >= Player.maxAFKTime && !afkAchievementDisplayed)
+        if (Player.currentAFKTime >= Player.maxAFKTime && !_afkAchievementDisplayed)
         {
             DisplayAchievement("J'ai terminé de lire mon journal, retournons à l'enquête !");
-            afkAchievementDisplayed = true; 
+            _afkAchievementDisplayed = true; 
         }
 
         if (Player.currentAFKTime >= 10f && !_afkAchievementDisplayed2)

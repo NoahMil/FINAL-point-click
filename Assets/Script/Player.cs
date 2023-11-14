@@ -7,8 +7,7 @@ using UnityEngine.EventSystems;
 
 public class Player : MonoBehaviour
 {
-    private Vector2 followSpot;
-    public float speed;
+    private Vector2 _followSpot;
     [SerializeField] private float perspectiveScale;
     [SerializeField] private float scaleRatio;
     
@@ -23,7 +22,7 @@ public class Player : MonoBehaviour
     
     void Start()
     {
-        followSpot = transform.position;
+        _followSpot = transform.position;
         _animator = GetComponent<Animator>();
         _agent = GetComponent<NavMeshAgent>();
         _agent.updateRotation = false;
@@ -43,7 +42,7 @@ public class Player : MonoBehaviour
         UpdateAnimation();
     }
 
-    private void HandlePlayerMovement()
+    public void HandlePlayerMovement()
     {
         if (DialogueManager.isActive == false)
         {
@@ -53,7 +52,7 @@ public class Player : MonoBehaviour
         var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (Input.GetMouseButton(0) && !IsMouseOverUI())
         {
-            followSpot = new Vector2(mousePosition.x, mousePosition.y);
+            _followSpot = new Vector2(mousePosition.x, mousePosition.y);
             currentAFKTime = 0f;
         }
 
@@ -61,20 +60,20 @@ public class Player : MonoBehaviour
         {
             OnAFKTime?.Invoke();
         }
-        _agent.SetDestination(new Vector3(followSpot.x, followSpot.y, transform.position.z));
+        _agent.SetDestination(new Vector3(_followSpot.x, _followSpot.y, transform.position.z));
     }
     
     private void HandleDialogueInteraction()
     {
         _animator.SetBool("interaction", true);
-        Vector3 direction = transform.position - new Vector3(followSpot.x, followSpot.y, transform.position.z);
+        Vector3 direction = transform.position - new Vector3(_followSpot.x, _followSpot.y, transform.position.z);
         float angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
         _animator.SetFloat("angle", angle);
     }
 
     private void UpdateAnimation()
     {
-        float distance = Vector2.Distance(transform.position, followSpot);
+        float distance = Vector2.Distance(transform.position, _followSpot);
         _animator.SetFloat("distance", distance);
         if (Vector2.Distance(_stuckDistanceCheck, transform.position) == 0)
         {
@@ -83,7 +82,7 @@ public class Player : MonoBehaviour
         }
         if (distance > 0.01)
         {
-            Vector3 direction = transform.position - new Vector3(followSpot.x, followSpot.y, transform.position.z);
+            Vector3 direction = transform.position - new Vector3(_followSpot.x, _followSpot.y, transform.position.z);
             float angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
             _animator.SetFloat("angle", angle);
             _stuckDistanceCheck = transform.position;

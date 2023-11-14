@@ -58,7 +58,7 @@ public class InteractionItem : MonoBehaviour
         }
     }
 
-    public void PickupInteraction()
+    private void PickupInteraction()
     {
         InventoryManager.instance.AddItem(item); 
         Destroy(transform.GetChild(0).gameObject);
