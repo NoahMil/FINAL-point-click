@@ -10,7 +10,10 @@ public class AchievementManager : MonoBehaviour
     public GameObject achievementPanel;
     public Text achievementText;
     private bool _achievementDisplayed;
-    public Player Player;
+    private bool afkAchievementDisplayed = false;
+    private bool _afkAchievementDisplayed2 = false;
+
+
     
     private void OnEnable()
     {
@@ -30,6 +33,22 @@ public class AchievementManager : MonoBehaviour
         ItemPickup.OnHintsFound -= ScoreCounting;
         GameManager.OnVillagersAwake -= AwakeVillage;
         Player.OnAFKTime -= AfkTime;
+    }
+    
+    private void DisplayAchievement(string achievementName)
+    {
+        achievementText.text = achievementName;
+        StartCoroutine(DisableAchievementPanel());
+        if (!_achievementDisplayed)
+        {
+            achievementPanel.SetActive(true);
+        }
+    }
+
+    private IEnumerator DisableAchievementPanel()
+    {
+        yield return new WaitForSeconds(5f);
+        achievementPanel.SetActive(false);
     }
     
     private void ScoreCounting()
@@ -58,34 +77,22 @@ public class AchievementManager : MonoBehaviour
         }
     }
 
+
     private void AfkTime()
     {
         Player.currentAFKTime += Time.deltaTime;
-        if (Player.currentAFKTime > Player.maxAFKTime)
+        if (Player.currentAFKTime >= Player.maxAFKTime && !afkAchievementDisplayed)
         {
-            DisplayAchievement("Journal lu !");
+            DisplayAchievement("J'ai terminé de lire mon journal, retournons à l'enquête !");
+            afkAchievementDisplayed = true; 
         }
-        
-        if (Player.currentAFKTime > Player.maxAFKTime)
+
+        if (Player.currentAFKTime >= 10f && !_afkAchievementDisplayed2)
         {
-            DisplayAchievement("Il va pleuvoir demain !");
-        }
-    }
-    
-    private void DisplayAchievement(string achievementName)
-    {
-        achievementText.text = achievementName;
-        StartCoroutine(DisableAchievementPanel());
-        if (!_achievementDisplayed)
-        {
-            achievementPanel.SetActive(true);
+            DisplayAchievement("D'après la météo, il ne neigera pas demain, bizarre");
+            _afkAchievementDisplayed2 = true;  
         }
     }
 
-    private IEnumerator DisableAchievementPanel()
-    {
-        yield return new WaitForSeconds(5f);
-        achievementPanel.SetActive(false);
-    }
 }
 

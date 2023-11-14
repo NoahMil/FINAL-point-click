@@ -16,8 +16,8 @@ public class Player : MonoBehaviour
     private NavMeshAgent _agent;
     private Animator _animator;
     
-    public float maxAFKTime = 5f;
-    public float currentAFKTime = 0f;
+    public static float maxAFKTime = 20f;
+    public static float currentAFKTime = 0f;
     
     public static Action OnAFKTime;
     
